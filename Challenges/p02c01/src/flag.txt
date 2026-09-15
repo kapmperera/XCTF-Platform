@@ -1,0 +1,1 @@
+XCTF{permission_is_important for web server}

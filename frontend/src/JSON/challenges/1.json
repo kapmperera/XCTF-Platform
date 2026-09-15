@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Client Side is not good...",
+    "tags": ["Javscript", "Front-end", "Encoding"],
+    "description": "Make sure you do not forget your password otherwise there is no any option to reset your password.....",
+    "points": 25,
+    "completed": false,
+    "url": "p01c01",
+    "username": "Level01",
+    "password": "heolkndhi",
+    "flag": "XCTF{client_side_is_bad_0101001}"
+  },
+  {
+    "id": 2,
+    "name": "Admin Login",
+    "tags": ["Cookies"],
+    "description": "Someone have sent very importent message to admin. It seems like only admin users can view the messages.",
+    "points": 15,
+    "completed": false,
+    "url": "p01c02",
+    "username": "Level02",
+    "password": "s4e1g4h5",
+    "flag": "XCTF{Cookies_are_everywhere_0102000}"
+  },
+  {
+    "id": 3,
+    "name": "The Sign of two five six",
+    "tags": ["Cryptography", "Cryptanalysis"],
+    "description": "Developer of the site is true fan of encryption. His site proves it",
+    "points": 40,
+    "completed": false,
+    "url": "p01c03",
+    "username": "Level103",
+    "password": "pr@v55n",
+    "flag": "XCTF{Common_passwords_brings_bad luck}"
+  },
+  {
+    "id": 4,
+    "name": "Moved Permanently",
+    "tags": ["Redirection", "HTTP Status"],
+    "description": "It seems like someone gave you a wrong URL",
+    "points": 20,
+    "completed": false,
+    "url": "p01c04",
+    "username": "Level104",
+    "password": "r@h@1_4_5",
+    "flag": "XCTF{Redirects_are_importent}"
+  },
+  {
+    "id": 5,
+    "name": "The login",
+    "tags": ["SQLi", "HTTP Status"],
+    "description": "I wonder if the users are kept in a database?",
+    "points": 10,
+    "completed": false,
+    "url": "p01c05",
+    "username": "Level105",
+    "password": "hklkjhklkjh",
+    "flag": "XCTF{Always_use_prepared_SQL_statements}"
+  },
+  {
+    "id": 6,
+    "name": "Mr. Robot",
+    "tags": ["Robots", "Web crawlers"],
+    "description": "Robots will do everything for you",
+    "points": 15,
+    "completed": false,
+    "url": "p01c06",
+    "username": "Level106",
+    "password": "ldpaeckrf",
+    "flag": "XCTF{Y0U_533_8U7_Y0U_D0_N07_0853RV3}"
+  },
+  {
+    "id": 7,
+    "name": "The message",
+    "tags": ["Cryptography", "historical ciphers"],
+    "description": "Sherlocck have sent you a message. try to understand it",
+    "points": 20,
+    "completed": false,
+    "url": "p01c07",
+    "username": "Level107",
+    "password": "flkdjafpoi",
+    "flag": "XCTF{to a great mind, nothing is little}"
+  },
+  {
+    "id": 8,
+    "name": "The Pssword",
+    "tags": ["Git", "SQLi"],
+    "description": "I think you can guess the password",
+    "points": 60,
+    "completed": false,
+    "url": "p01c08",
+    "username": "Level108",
+    "password": "lkweqmnled",
+    "flag": "XCTF{The_Game_is_Afoot}"
+  }
+]

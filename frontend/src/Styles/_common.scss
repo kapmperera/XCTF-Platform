@@ -1,0 +1,16 @@
+body {
+  background-color: $bgPrimary;
+  font-family: "Poppins", sans-serif;
+  color: $white;
+  @include scrollbars(5px, $bgSecondary, $bgPrimary);
+}
+
+.appPage {
+  min-height: calc(100vh);
+  padding-top: 75px;
+}
+
+* {
+  // font-family: "Roboto", sans-serif;
+  // font-family: 'Poppins', sans-serif;
+}

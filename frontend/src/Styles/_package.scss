@@ -1,0 +1,96 @@
+.packageWrapper {
+  .titleSection {
+    background-color: $bgSecondary;
+    padding: 15px;
+    margin-bottom: 35px;
+    @include centeredRow;
+    transition-duration: 0.3s;
+
+    img {
+      height: 150px;
+      width: 200px;
+      object-fit: cover;
+      margin-right: 15px;
+    }
+
+    .info {
+      color: $txtColor;
+      margin-right: 15px;
+      height: 150px;
+
+      h3 {
+        font-size: 18px;
+        // color: $txtActive;
+      }
+      p {
+        font-size: 12px;
+        max-lines: 3;
+        text-overflow: ellipsis;
+        text-align: justify;
+        overflow: hidden;
+      }
+
+      .metaData {
+        .item {
+          margin-right: 15px;
+          padding-right: 15px;
+          border-right: solid 1px $txtColor;
+          font-size: 14px;
+          color: $txtActive;
+          .key {
+            font-weight: bolder;
+            color: $txtColor;
+            margin-right: 8px;
+          }
+
+          &:last-child {
+            border-right: none;
+          }
+        }
+      }
+    }
+
+    .action {
+      color: $txtColor;
+      height: 150px;
+      min-width: 200px;
+      @include centeredBox;
+      flex-direction: column;
+      justify-content: space-around;
+      padding-right: 25px;
+      padding-left: 25px;
+      border-left: solid 1px $txtColor;
+
+      .completeStatus {
+        font-size: 40px;
+        color: $txtActive;
+      }
+
+      a {
+        @include btnPrimary;
+        width: 100%;
+        font-size: 14px;
+      }
+    }
+  }
+
+  .sectionTitle {
+    @include centeredRow;
+    align-items: flex-end;
+    margin-bottom: 35px;
+
+    h1 {
+      color: $txtColor;
+      font-size: 22px;
+      margin-right: 15px;
+      margin-bottom: 0px;
+    }
+
+    hr {
+      flex: 1;
+      border-bottom: solid 1px $txtColor;
+      margin-top: 0px;
+      margin-bottom: 5px;
+    }
+  }
+}

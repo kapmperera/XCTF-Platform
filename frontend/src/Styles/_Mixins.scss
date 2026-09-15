@@ -1,0 +1,84 @@
+@mixin centeredRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin centeredBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin scrollbars(
+  $size,
+  $foreground-color,
+  $background-color: mix($foreground-color, white, 50%)
+) {
+  // For Google Chrome
+  &::-webkit-scrollbar {
+    width: $size;
+    height: $size;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $foreground-color;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: $background-color;
+  }
+
+  // For Internet Explorer
+  & {
+    scrollbar-face-color: $foreground-color;
+    scrollbar-track-color: $background-color;
+  }
+}
+
+@mixin formGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+
+  label {
+    color: $white;
+    font-size: 18px;
+  }
+  input {
+    @include formInput;
+    &:focus {
+      outline: none;
+      // box-shadow: 0px 0px 3px 1px mix($appPrimary, $bgPrimary, 100%);
+    }
+  }
+
+  button {
+    @include btnPrimary;
+  }
+}
+
+@mixin formInput {
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  color: $appPrimary;
+  background-color: $bgSecondary;
+}
+
+@mixin btnPrimary {
+  text-align: center;
+  border: solid 1px $appPrimary;
+  background-color: transparent;
+  color: $white;
+  padding: 8px;
+  border-radius: 8px;
+  margin: 8px 0px;
+  transition-duration: 0.5s;
+  &:hover {
+    background-color: mix($appPrimary, $bgPrimary, 30%);
+    text-decoration: none;
+  }
+}

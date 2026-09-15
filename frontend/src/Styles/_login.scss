@@ -1,0 +1,17 @@
+.login_wrapper {
+  @include centeredBox;
+
+  .login_container {
+    width: 100%;
+    max-width: 425px;
+    // background-color: $bgSecondary;
+    padding: 25px;
+    border-radius: 25px;
+
+    form{
+        .form_group{
+            @include formGroup;
+        }
+    }
+  }
+}

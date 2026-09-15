@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "HTTP Server",
+    "tags": ["node-js", "http-server", "file permission"],
+    "description": "it looks like images are comming from a CDN server",
+    "points": 75,
+    "completed": false,
+    "url": "p02c01",
+    "username": "Leve201",
+    "password": "fhgkjhdfjks",
+    "flag": "XCTF{permission_is_important for web server}"
+  }
+]

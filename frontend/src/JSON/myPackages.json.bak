@@ -1,0 +1,32 @@
+[
+  {
+    "id": 4,
+    "name": "General Skills - Web | Basic",
+    "description": "This packge contains the challenges which will help you to undestand the basic skill that you need to hack in to web applications",
+    "image": "/Images/Packages/01.jpg",
+    "challenges_total": 18,
+    "challenges_completed": 7,
+    "lastUpdate": "25-09-2020",
+    "subscriptions": 238
+  },
+  {
+    "id": 5,
+    "name": "React + Express + Mongo | Advance",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,",
+    "image": "/Images/Packages/02.png",
+    "challenges_total": 16,
+    "challenges_completed": 3,
+    "lastUpdate": "5-02-2020",
+    "subscriptions": 508
+  },
+  {
+    "id": 6,
+    "name": "Vue + Express | Basic",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,",
+    "image": "/Images/Packages/05.jpg",
+    "challenges_total": 10,
+    "challenges_completed": 3,
+    "lastUpdate": "21-03-2019",
+    "subscriptions": 105
+  }
+]

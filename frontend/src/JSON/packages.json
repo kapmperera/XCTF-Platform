@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "General Skills - Web | Basic",
+    "description": "This packge contains the challenges which will help you to undestand the basic skill that you need to hack in to web applications",
+    "image": "/Images/Packages/01.jpg",
+    "challenges_total": 18,
+    "challenges_completed": 7,
+    "lastUpdate": "25-09-2020",
+    "subscriptions": 238
+  },
+  {
+    "id": 2,
+    "name": "React | Basic",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,",
+    "image": "https://www.cloudcms.com/images/quickstarts/react/react.df70b005.png",
+    "challenges_total": 16,
+    "challenges_completed": 3,
+    "lastUpdate": "29-07-2020",
+    "subscriptions": 467
+  },
+  {
+    "id": 3,
+    "name": "Express | Basic",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,",
+    "image": "https://www.sohamkamani.com/static/express-routing-logo-65137ed3c844d05124dcfdab28263c21.png",
+    "challenges_total": 10,
+    "challenges_completed": 3,
+    "lastUpdate": "11-08-2020",
+    "subscriptions": 112
+  },
+  {
+    "id": 4,
+    "name": "Anguler + Express | Basic",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,",
+    "image": "/Images/Packages/01.jpeg",
+    "challenges_total": 18,
+    "challenges_completed": 7,
+    "lastUpdate": "25-09-2020",
+    "subscriptions": 238
+  },
+  {
+    "id": 5,
+    "name": "React + Express + Mongo | Advance",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,",
+    "image": "/Images/Packages/02.png",
+    "challenges_total": 16,
+    "challenges_completed": 3,
+    "lastUpdate": "5-02-2020",
+    "subscriptions": 508
+  },
+  {
+    "id": 6,
+    "name": "Vue + Express | Basic",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,",
+    "image": "/Images/Packages/05.jpg",
+    "challenges_total": 10,
+    "challenges_completed": 3,
+    "lastUpdate": "21-03-2019",
+    "subscriptions": 105
+  },
+  {
+    "id": 7,
+    "name": "Anguler + React  | Advance",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,",
+    "image": "https://cdn-media-1.freecodecamp.org/images/1*yq7TPrTheULIcxwfTD96SA.png",
+    "challenges_total": 18,
+    "challenges_completed": 7,
+    "lastUpdate": "17-09-2020",
+    "subscriptions": 516
+  },
+  {
+    "id": 8,
+    "name": "Express + Node | Advance",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,",
+    "image": "https://d3t0dn7puh4fxw.cloudfront.net/wp-content/uploads/2015/09/expressjs.jpg",
+    "challenges_total": 16,
+    "challenges_completed": 3,
+    "lastUpdate": "11-04-2020",
+    "subscriptions": 485
+  },
+  {
+    "id": 9,
+    "name": "Vue + Anguler | Advance",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,",
+    "image": "https://www.joshmorony.com/media/2017/10/angularvue.png",
+    "challenges_total": 10,
+    "challenges_completed": 3,
+    "lastUpdate": "01-06-2020",
+    "subscriptions": 421
+  }
+]

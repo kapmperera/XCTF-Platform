@@ -1,0 +1,85 @@
+.packages_wrapper {
+  .searchForm {
+    padding: 15px;
+    background-color: $bgSecondary;
+    margin-bottom: 35px;
+
+    form {
+      .form_group {
+        @include formGroup;
+        @include centeredRow;
+        margin-bottom: 0px;
+
+        input {
+          background-color: $bgPrimary;
+          flex: 1;
+          margin-right: 15px;
+          box-shadow: inset 0px 0px 8px #00000045;
+        }
+      }
+    }
+  }
+
+  .packageCard {
+    padding: 15px;
+    background-color: $bgSecondary;
+    margin-bottom: 25px;
+    @include centeredRow;
+    flex-direction: column;
+    transition-duration: 0.3s;
+
+    img {
+      height: 150px;
+      width: 100%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    .info {
+      color: $txtColor;
+      min-height: 210px;
+
+      h3 {
+        font-size: 22px;
+        // color: $txtActive;
+      }
+      p {
+        font-size: 12px;
+        height: 75px;
+        overflow: hidden;
+        text-align: justify;
+      }
+
+      .metaData {
+        @include centeredRow;
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        .item {
+          font-size: 14px;
+          color: $txtActive;
+          .key {
+            font-weight: bolder;
+            color: $txtColor;
+            margin-right: 8px;
+          }
+        }
+      }
+    }
+
+    .action {
+      button {
+        @include btnPrimary;
+        padding: 8px 35px;
+      }
+
+      .owned{
+          display: block;
+          padding: 8px 35px; 
+          margin: 8px 0px;
+          font-size: 16px;
+          color: $txtColor;
+      }
+    }
+  }
+}

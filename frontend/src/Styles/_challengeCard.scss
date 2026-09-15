@@ -1,0 +1,162 @@
+.challengeCard_Wrapper {
+  background-color: $bgSecondary;
+  padding: 15px;
+  margin-bottom: 25px;
+
+  .info {
+    height: 70px;
+    color: $txtColor;
+    @include centeredRow;
+    .index {
+      width: 70px;
+      text-align: center;
+      color: $txtActive;
+      font-size: 35px;
+      font-weight: normal;
+      border-right: solid 1px $txtColor;
+      margin-right: 15px;
+    }
+
+    .details {
+      flex: 1;
+
+      h4 {
+        font-size: 20px;
+        margin-bottom: 12px;
+      }
+      p {
+        font-size: 10px;
+        height: 25px;
+        margin-bottom: 0px;
+        span {
+          text-transform: capitalize;
+          padding: 2px 10px;
+          margin-right: 5px;
+          border: solid 1px $appPrimary;
+          border-radius: 24px;
+        }
+      }
+    }
+
+    .points {
+      @include centeredBox;
+
+      h1 {
+        margin-bottom: 0px;
+        font-size: 30px;
+
+        i {
+          font-size: 30px;
+          margin-right: 8px;
+        }
+      }
+
+      &.completed {
+        h1 {
+          color: $txtActive;
+
+          i {
+            color: $txtActive;
+          }
+        }
+      }
+    }
+
+    .action {
+      i {
+        padding: 15px;
+        margin: 10px;
+        border-radius: 50%;
+        cursor: pointer;
+        transition-duration: 0.7s;
+        &.open {
+          transform: rotateZ(180deg);
+        }
+
+        &:hover {
+          background-color: #ffffff10;
+        }
+      }
+    }
+  }
+
+  .accessDetails {
+    max-height: 0;
+    overflow: hidden;
+    transition-duration: 0.7s;
+    color: $txtColor;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-top: 0px;
+
+    &.open {
+      margin-top: 25px;
+      max-height: 500px;
+    }
+    p {
+      font-size: 14px;
+      margin-bottom: 25px;
+      text-align: justify;
+    }
+
+    .detailGrid {
+      @include centeredRow;
+      table {
+        font-size: 14px;
+        flex: 1;
+        tr {
+          td {
+            padding: 0px 15px;
+            a {
+              cursor: pointer;
+              font-size: 14px;
+              color: $txtActive;
+            }
+            span {
+              cursor: pointer;
+              font-size: 10px;
+              color: $txtActive;
+            }
+          }
+        }
+      }
+
+      .form {
+        flex: 1;
+        padding: 0px 35px;
+        form {
+          .form_group {
+            @include formGroup;
+            margin-bottom: 0px;
+
+            input {
+              background-color: $bgPrimary;
+              font-size: 12px;
+              padding: 8px;
+            }
+
+            button {
+              width: min-content;
+              font-size: 14px;
+              padding: 5px 15px;
+            }
+          }
+        }
+      }
+
+      .completed {
+        flex: 1;
+        padding: 15px;
+        @include centeredBox;
+        h1 {
+          color: $txtActive;
+          font-size: 35px;
+
+          i {
+            margin-right: 15px;
+          }
+        }
+      }
+    }
+  }
+}

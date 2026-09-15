@@ -1,0 +1,106 @@
+.landing_wrapper {
+  padding-top: 60px;
+  .mainBanner {
+    #tsparticles {
+      position: absolute;
+      width: 100%;
+      height: calc(100vh - 60px);
+      overflow: hidden;
+      z-index: 0;
+      background-color: #00000088;
+
+      canvas {
+        width: 100%;
+        height: 100%;
+        opacity: 0.5;
+      }
+    }
+
+    .content {
+      position: relative;
+      z-index: 1;
+      height: calc(100vh - 70px);
+      color: $white;
+      @include centeredBox;
+      flex-direction: column;
+
+      .titleMain {
+        font-size: 75px;
+        font-family: "Kaushan Script", cursive;
+        margin-bottom: 0px;
+        span {
+          font-family: "Kaushan Script", cursive;
+          font-size: 100px;
+          color: $appPrimary;
+          padding: 8px;
+        }
+      }
+
+      .descMain {
+        margin-top: 45px;
+        font-size: 18px;
+        max-width: 450px;
+        text-align: center;
+        color: $txtActive;
+      }
+
+      .actions {
+        margin-top: 25px;
+        width: 450px;
+        @include centeredRow;
+        justify-content: space-evenly;
+
+        button {
+          @include btnPrimary;
+          padding-left: 25px;
+          padding-right: 25px;
+        }
+      }
+    }
+  }
+
+  .AboutSection {
+    margin: 65px 0px;
+
+    .content {
+      h3 {
+        margin-top: 25px;
+      }
+      button {
+        @include btnPrimary;
+        padding: 8px 15px;
+      }
+    }
+
+    .image {
+      img {
+        width: 100%;
+        filter: grayscale(1);
+        transform: rotateY(180deg);
+      }
+    }
+  }
+
+  .partnersSection {
+    background-color: #00000055;
+    padding: 35px 0px;
+    color: #5a5a5a;
+
+    .title {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 55px;
+    }
+
+    .item {
+      img {
+        width: 100%;
+        height: 150px;
+        object-fit: contain;
+        filter: grayscale(100);
+        opacity: 0.5;
+      }
+      margin-bottom: 55px;
+    }
+  }
+}

@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "name": "Client Side is not good...",
+    "tags": ["Javscript", "Front-end", "Encoding"],
+    "description": "Make sure you do not forget your password otherwise there is no any option to reset your password.....",
+    "points": 25,
+    "completed": false,
+    "url": "p01c01",
+    "username": "Level01",
+    "password": "heolkndhi",
+    "flag": "XCTF{client_side_is_bad_0101001}"
+  },
+  {
+    "id": 2,
+    "name": "Admin Login",
+    "tags": ["Cookies"],
+    "description": "Someone have sent very importent message to admin. It seems like only admin users can view the messages.",
+    "points": 15,
+    "completed": false,
+    "url": "p01c02",
+    "username": "Level02",
+    "password": "s4e1g4h5",
+    "flag": "XCTF{Cookies_are_everywhere_0102000}"
+  },
+
+  {
+    "id": 3,
+    "name": "The Sign of five",
+    "tags": ["Cryptography", "exploitation"],
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text",
+    "points": 20,
+    "completed": true,
+    "url": "level3",
+    "username": "Level03",
+    "password": "pr@v55n",
+    "flag": "XCTF{}"
+  },
+  {
+    "id": 4,
+    "name": "The Hound of the signs",
+    "tags": ["forensic", "reversing", "Steganography"],
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text",
+    "points": 35,
+    "completed": false,
+    "url": "level4",
+    "username": "Level04",
+    "password": "$fya4t7p",
+    "flag": "XCTF{}"
+  },
+  {
+    "id": 5,
+    "name": "who am I ??",
+    "tags": ["Web", "Information gathering", "SEO"],
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text",
+    "points": 20,
+    "completed": false,
+    "url": "level5",
+    "username": "Level05",
+    "password": "2we4t6d",
+    "flag": "XCTF{}"
+  },
+  {
+    "id": 6,
+    "name": "Command: Delete",
+    "tags": ["SEO", "pwn", "file upload"],
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text",
+    "points": 15,
+    "completed": false,
+    "url": "level6",
+    "username": "Level06",
+    "password": "r@11al",
+    "flag": "XCTF{}"
+  },
+  {
+    "id": 7,
+    "name": "Be My Guest",
+    "tags": ["exploit", "reverse shell"],
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text",
+    "points": 10,
+    "completed": true,
+    "url": "level7",
+    "username": "Level07",
+    "password": "c0v1d1q",
+    "flag": "XCTF{}"
+  },
+  {
+    "id": 8,
+    "name": "Last Minute",
+    "tags": ["Cryptography", "Information gathering"],
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text",
+    "points": 15,
+    "completed": false,
+    "url": "level8",
+    "username": "Level08",
+    "password": "r@m5a9o",
+    "flag": "XCTF{}"
+  },
+  {
+    "id": 9,
+    "name": "The Sixth Flag",
+    "tags": ["exploit", "reversing", "file upload"],
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text",
+    "points": 35,
+    "completed": false,
+    "url": "level9",
+    "username": "Level09",
+    "password": "@pe21o",
+    "flag": "XCTF{}"
+  },
+  {
+    "id": 10,
+    "name": "Take a close look",
+    "tags": ["Steganography"],
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text",
+    "points": 15,
+    "completed": true,
+    "url": "level10",
+    "username": "Level10",
+    "password": "i@msh1t",
+    "flag": "XCTF{}"
+  }
+]
