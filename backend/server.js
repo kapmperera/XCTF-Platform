@@ -84,14 +84,14 @@ app.get(["/challenges", "/challenges/*", "/mini-ctf", "/mini-ctf/*", "/mini-ctfs
   return res.redirect(`http://localhost:3000${fullPath}`);
 });
 
-// Serve frontend static build in production if built
-const frontendBuild = path.join(__dirname, "..", "frontend", "build");
-if (fs.existsSync(frontendBuild)) {
-  app.use(express.static(frontendBuild));
-  app.get("*", (req, res) => {
-    res.sendFile(path.join(frontendBuild, "index.html"));
-  });
-}
+// Serve static React build files in production
+const frontendBuildPath = path.join(__dirname, "..", "frontend", "build");
+app.use(express.static(frontendBuildPath));
+app.get("*", (req, res) => {
+  if (!req.path.startsWith("/api") && !req.path.startsWith("/challenges-env")) {
+    res.sendFile(path.join(frontendBuildPath, "index.html"));
+  }
+});
 
 // Global Error Handler
 app.use((err, req, res, next) => {
