@@ -74,22 +74,16 @@ app.get("/api/info", async (req, res) => {
   }
 });
 
-// Handle direct non-API web routes gracefully (redirect to dev server or serve build)
-app.get(["/challenges", "/challenges/*", "/mini-ctf", "/mini-ctf/*", "/mini-ctfs", "/mini-ctfs/*", "/dashboard", "/leaderboard"], (req, res) => {
-  const frontendBuildPath = path.join(__dirname, "..", "frontend", "build", "index.html");
-  if (fs.existsSync(frontendBuildPath)) {
-    return res.sendFile(frontendBuildPath);
-  }
-  const fullPath = req.originalUrl || "/challenges";
-  return res.redirect(`http://localhost:3000${fullPath}`);
-});
-
 // Serve static React build files in production
 const frontendBuildPath = path.join(__dirname, "..", "frontend", "build");
 app.use(express.static(frontendBuildPath));
 app.get("*", (req, res) => {
   if (!req.path.startsWith("/api") && !req.path.startsWith("/challenges-env")) {
-    res.sendFile(path.join(frontendBuildPath, "index.html"));
+    const indexPath = path.join(frontendBuildPath, "index.html");
+    if (fs.existsSync(indexPath)) {
+      return res.sendFile(indexPath);
+    }
+    return res.status(404).send("Frontend build not found. Please run 'npm run build'.");
   }
 });
 
