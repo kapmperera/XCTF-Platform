@@ -21,7 +21,13 @@ app.use(express.urlencoded({ extended: true }));
 
 // Serve challenge dynamic files from Challenges directory
 const challengesDir = path.join(__dirname, "..", "Challenges");
-app.use("/challenges-env", express.static(challengesDir));
+app.use("/challenges-env", express.static(challengesDir, {
+  setHeaders: (res, filePath) => {
+    if (filePath.includes("p03c01")) {
+      res.set("X-Secret-Flag", "XCTF{headers_contain_secrets_9921}");
+    }
+  }
+}));
 
 // API Routes
 app.use("/api/auth", authRoutes);
